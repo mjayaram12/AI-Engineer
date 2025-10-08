@@ -1,0 +1,13 @@
+
+import matplotlib-pyplot as plt
+import pandas as pd
+data = {'Module':['AI', 'ML', 'Python', 'Datastructures' ], 'Teamsize':[135, 125, 125, 115]}
+df = pd. DataFrame (data)
+print (df)
+df. set_index"Module', inplace=True)
+print (df)
+df.plot(kind='pie', figsize=(40, 20), autopct='%1.17%%, y='Teamsize', frame = True, legend=True)
+plt.title('Module wise Team size')
+plt.legend (title= Modules'
+, loc= 'upper right" , bbox_to_anchor= (1.2, 1))
+plt.show()
